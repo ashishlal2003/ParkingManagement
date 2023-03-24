@@ -2,4 +2,4 @@ create table parkinginfo(carnumber varchar(100), carcolor varchar(100), cartype 
 
 create table parkingspot(spot varchar(100), srnum varchar(100) primary key);
 
-insert into parkingspot values('NULL','1'),('NULL','2'),('NULL','3');
+insert into parkingspot values('NULL','1'),('NULL','2'),('NULL','3'),('NULL','4'),('NULL','5');
