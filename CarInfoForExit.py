@@ -155,7 +155,7 @@ class ExitCarInfo(object):
         val = [self.carNumber]
         mycursor.execute(sql, val)
 
-        sql = "UPDATE ParkingLot.ParkingSpot SET Spot = 'Null' WHERE SrNum = %s"
+        sql = "UPDATE ParkingLot.ParkingSpot SET Spot = 'NULL' WHERE SrNum = %s"
         val = [self.SpotNum]
         mycursor.execute(sql, val)
 
